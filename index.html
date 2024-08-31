@@ -109,6 +109,13 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalHOPE">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/HOPE PCB.png" alt="HOPE PCB"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalFRC2020">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -137,13 +144,13 @@
                         </div>
                     </div> -->
                     
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <!-- <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="assets/img/portfolio/GV.png" alt="Gravity Vehicle"/>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -721,6 +728,57 @@
                                         I also delved deeper into flight-level engineering, defining and optimizing for mission margins, qualifying parts and processes for flight,
                                          as well as the design and manufacturing of carbon fiber composite structural members.
                                     </p>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModalHOPE" tabindex="-1" role="dialog"
+            aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                                class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">HOPE Decal - IoT Speaker Amplifier</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-rocket"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image -->
+                                    
+                                    <figure>
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HOPE PCB Diagram.png" alt="PCB Diagram" width="100%"/>
+                                        <figcaption><small><i>High-Level Board Diagram</i></small></figcaption>
+                                    </figure>
+                                    
+                                    <!-- Portfolio Modal - Text-->
+                    
+                                    <p class="mb-5"> As part of the HOPE Decal at UC Berkeley, I designed a speaker amplifier circuit that could take various 
+                                        audio inputs and output those waveforms to a 2.1 sorround sound system. Through the course of spring semester, 
+                                        I learned everything needed to go from an idea to a completed board. 
+                                    </p>   
+                                    <figure>
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HOPE PCB Schematic.png" alt="PCB Schmatic" width="100%"/>
+                                        <figcaption><small><i>Board Schmatic</i></small></figcaption>
+                                    </figure>
+                                    <p class="mb-5"> After deciding on the chips and communication modes needed to get from input to output,
+                                         I created the schematic to design all the connections and passives needed to operate the class D amplifiers for the speaker output. 
+                                         Afterwards, I laid out all the components on the PCB and soldered all the components. The board was partially operational, with the ESP32 
+                                         communicating and triggering status LEDs. However, I was unable to communicate to PCM and TAS chips, possibly due to errors in soldering.
+                                    </p>
+                                    <figure>
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HOPE PCB KiCAD.png" alt="PCB Final Layout" width="80%"/>
+                                        <figcaption><small><i>Board Layout</i></small></figcaption>
+                                    </figure>
                                 </div>
                             </div>
                         </div>
